@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 extern NSString *const CSStickyHeaderParallaxHeader;
-static const CGFloat INContentCollectionViewFooterHeight = 75.f;
+static const CGFloat INContentCollectionViewFooterHeight = 50.f;
 
 @interface INContentCollectionViewFlowLayout : UICollectionViewFlowLayout
 

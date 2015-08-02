@@ -76,7 +76,7 @@
 {
   self.starImageView.highlighted = !self.starImageView.isHighlighted;
   if (self.starImageView.isHighlighted) {
-    [self.starImageView bounceEffect];
+//    [self.starImageView bounceEffect];
   }
 }
 
