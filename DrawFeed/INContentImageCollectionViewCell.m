@@ -7,10 +7,11 @@
 //
 
 #import "INContentImageCollectionViewCell.h"
+#import "FLAnimatedImageView.h"
 
 @interface INContentImageCollectionViewCell ()
 
-@property (nonatomic, strong) UIImageView *imageView;
+@property (nonatomic, strong) FLAnimatedImageView *imageView;
 
 @end
 
@@ -20,14 +21,9 @@
 {
   self = [super initWithFrame:frame];
   
-  self.imageView = [[UIImageView alloc] init];
-  self.imageView.translatesAutoresizingMaskIntoConstraints = NO;
-  self.imageView.backgroundColor = [UIColor orangeColor];
+  self.imageView = [[FLAnimatedImageView alloc] initWithFrame:self.bounds];
+  self.imageView.backgroundColor = [UIColor groupTableViewBackgroundColor];
   [self.contentView addSubview:self.imageView];
-  
-  NSDictionary *views = NSDictionaryOfVariableBindings(_imageView);
-  [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_imageView]|" options:0 metrics:nil views:views]];
-  [self.contentView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_imageView]|" options:0 metrics:nil views:views]];
   
   return self;
 }
@@ -37,9 +33,15 @@
   self.imageView.image = image;
 }
 
+- (void)setAnimatedImage:(FLAnimatedImage *)animatedImage
+{
+  self.imageView.animatedImage = animatedImage;
+}
+
 - (void)prepareForReuse
 {
   self.imageView.image = nil;
+  self.imageView.animatedImage = nil;
 }
 
 @end

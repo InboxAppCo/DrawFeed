@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46989CAFFE14420A034F638E /* libPods-DrawFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5291800A0AF8236C22C89A4F /* libPods-DrawFeed.a */; };
 		6DC45D201B67202E0044D7CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D1F1B67202E0044D7CC /* main.m */; };
 		6DC45D231B67202E0044D7CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D221B67202E0044D7CC /* AppDelegate.m */; };
 		6DC45D261B67202E0044D7CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D251B67202E0044D7CC /* ViewController.m */; };
-		6DC45D291B67202E0044D7CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D271B67202E0044D7CC /* Main.storyboard */; };
 		6DC45D2B1B67202E0044D7CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D2A1B67202E0044D7CC /* Images.xcassets */; };
 		6DC45D2E1B67202E0044D7CC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D2C1B67202E0044D7CC /* LaunchScreen.xib */; };
 		6DC45D3A1B67202E0044D7CC /* DrawFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D391B67202E0044D7CC /* DrawFeedTests.m */; };
+		6DC45D471B6720E90044D7CC /* INContentCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D441B6720E90044D7CC /* INContentCollectionViewFlowLayout.m */; };
+		6DC45D481B6720E90044D7CC /* INContentCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D461B6720E90044D7CC /* INContentCollectionViewLayoutAttributes.m */; };
+		6DC45D4D1B6721030044D7CC /* INContentMotherCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D4A1B6721030044D7CC /* INContentMotherCollectionViewCell.m */; };
+		6DC45D4E1B6721030044D7CC /* INContentImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D4C1B6721030044D7CC /* INContentImageCollectionViewCell.m */; };
+		6DC45D531B6721150044D7CC /* INContentHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D501B6721150044D7CC /* INContentHeaderCollectionReusableView.m */; };
+		6DC45D541B6721150044D7CC /* INContentFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DC45D521B6721150044D7CC /* INContentFooterCollectionReusableView.m */; };
+		6DC45D591B6724350044D7CC /* bunny.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D561B6724350044D7CC /* bunny.gif */; };
+		6DC45D5A1B6724350044D7CC /* bikini-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D571B6724350044D7CC /* bikini-2.gif */; };
+		6DC45D5B1B6724350044D7CC /* halsy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D581B6724350044D7CC /* halsy.gif */; };
+		6DC45D5D1B67243F0044D7CC /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D5C1B67243F0044D7CC /* 1.gif */; };
+		6DC45D611B6724460044D7CC /* bikini.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D5E1B6724460044D7CC /* bikini.gif */; };
+		6DC45D621B6724460044D7CC /* jenner6.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D5F1B6724460044D7CC /* jenner6.gif */; };
+		6DC45D631B6724460044D7CC /* calvin.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6DC45D601B6724460044D7CC /* calvin.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A02CAA87F6F00FCB391C2B /* Pods-DrawFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawFeed/Pods-DrawFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		5291800A0AF8236C22C89A4F /* libPods-DrawFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawFeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC45D1A1B67202E0044D7CC /* DrawFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC45D1E1B67202E0044D7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC45D1F1B67202E0044D7CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -34,12 +49,31 @@
 		6DC45D221B67202E0044D7CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6DC45D241B67202E0044D7CC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6DC45D251B67202E0044D7CC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6DC45D281B67202E0044D7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DC45D2A1B67202E0044D7CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6DC45D2D1B67202E0044D7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6DC45D331B67202E0044D7CC /* DrawFeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawFeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DC45D381B67202E0044D7CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DC45D391B67202E0044D7CC /* DrawFeedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawFeedTests.m; sourceTree = "<group>"; };
+		6DC45D431B6720E90044D7CC /* INContentCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INContentCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		6DC45D441B6720E90044D7CC /* INContentCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INContentCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		6DC45D451B6720E90044D7CC /* INContentCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INContentCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		6DC45D461B6720E90044D7CC /* INContentCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INContentCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		6DC45D491B6721030044D7CC /* INContentMotherCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INContentMotherCollectionViewCell.h; sourceTree = "<group>"; };
+		6DC45D4A1B6721030044D7CC /* INContentMotherCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INContentMotherCollectionViewCell.m; sourceTree = "<group>"; };
+		6DC45D4B1B6721030044D7CC /* INContentImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INContentImageCollectionViewCell.h; sourceTree = "<group>"; };
+		6DC45D4C1B6721030044D7CC /* INContentImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INContentImageCollectionViewCell.m; sourceTree = "<group>"; };
+		6DC45D4F1B6721150044D7CC /* INContentHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INContentHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		6DC45D501B6721150044D7CC /* INContentHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INContentHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		6DC45D511B6721150044D7CC /* INContentFooterCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INContentFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		6DC45D521B6721150044D7CC /* INContentFooterCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INContentFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		6DC45D561B6724350044D7CC /* bunny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bunny.gif; sourceTree = "<group>"; };
+		6DC45D571B6724350044D7CC /* bikini-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "bikini-2.gif"; sourceTree = "<group>"; };
+		6DC45D581B6724350044D7CC /* halsy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = halsy.gif; sourceTree = "<group>"; };
+		6DC45D5C1B67243F0044D7CC /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		6DC45D5E1B6724460044D7CC /* bikini.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bikini.gif; sourceTree = "<group>"; };
+		6DC45D5F1B6724460044D7CC /* jenner6.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jenner6.gif; sourceTree = "<group>"; };
+		6DC45D601B6724460044D7CC /* calvin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = calvin.gif; sourceTree = "<group>"; };
+		CD03FBE18EC6BE8574656398 /* Pods-DrawFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawFeed/Pods-DrawFeed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46989CAFFE14420A034F638E /* libPods-DrawFeed.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +95,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1351092FF9F9A5108BEEF121 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10A02CAA87F6F00FCB391C2B /* Pods-DrawFeed.debug.xcconfig */,
+				CD03FBE18EC6BE8574656398 /* Pods-DrawFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3658E38247719B7F7D754260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5291800A0AF8236C22C89A4F /* libPods-DrawFeed.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6DC45D111B67202E0044D7CC = {
 			isa = PBXGroup;
 			children = (
 				6DC45D1C1B67202E0044D7CC /* DrawFeed */,
 				6DC45D361B67202E0044D7CC /* DrawFeedTests */,
 				6DC45D1B1B67202E0044D7CC /* Products */,
+				1351092FF9F9A5108BEEF121 /* Pods */,
+				3658E38247719B7F7D754260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +139,21 @@
 				6DC45D221B67202E0044D7CC /* AppDelegate.m */,
 				6DC45D241B67202E0044D7CC /* ViewController.h */,
 				6DC45D251B67202E0044D7CC /* ViewController.m */,
-				6DC45D271B67202E0044D7CC /* Main.storyboard */,
 				6DC45D2A1B67202E0044D7CC /* Images.xcassets */,
+				6DC45D551B67242A0044D7CC /* GIFs */,
 				6DC45D2C1B67202E0044D7CC /* LaunchScreen.xib */,
+				6DC45D431B6720E90044D7CC /* INContentCollectionViewFlowLayout.h */,
+				6DC45D441B6720E90044D7CC /* INContentCollectionViewFlowLayout.m */,
+				6DC45D451B6720E90044D7CC /* INContentCollectionViewLayoutAttributes.h */,
+				6DC45D461B6720E90044D7CC /* INContentCollectionViewLayoutAttributes.m */,
+				6DC45D491B6721030044D7CC /* INContentMotherCollectionViewCell.h */,
+				6DC45D4A1B6721030044D7CC /* INContentMotherCollectionViewCell.m */,
+				6DC45D4B1B6721030044D7CC /* INContentImageCollectionViewCell.h */,
+				6DC45D4C1B6721030044D7CC /* INContentImageCollectionViewCell.m */,
+				6DC45D4F1B6721150044D7CC /* INContentHeaderCollectionReusableView.h */,
+				6DC45D501B6721150044D7CC /* INContentHeaderCollectionReusableView.m */,
+				6DC45D511B6721150044D7CC /* INContentFooterCollectionReusableView.h */,
+				6DC45D521B6721150044D7CC /* INContentFooterCollectionReusableView.m */,
 				6DC45D1D1B67202E0044D7CC /* Supporting Files */,
 			);
 			path = DrawFeed;
@@ -119,6 +185,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6DC45D551B67242A0044D7CC /* GIFs */ = {
+			isa = PBXGroup;
+			children = (
+				6DC45D561B6724350044D7CC /* bunny.gif */,
+				6DC45D571B6724350044D7CC /* bikini-2.gif */,
+				6DC45D581B6724350044D7CC /* halsy.gif */,
+				6DC45D5C1B67243F0044D7CC /* 1.gif */,
+				6DC45D5E1B6724460044D7CC /* bikini.gif */,
+				6DC45D5F1B6724460044D7CC /* jenner6.gif */,
+				6DC45D601B6724460044D7CC /* calvin.gif */,
+			);
+			name = GIFs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +206,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DC45D3D1B67202E0044D7CC /* Build configuration list for PBXNativeTarget "DrawFeed" */;
 			buildPhases = (
+				F4896B72B84103802D5232C8 /* Check Pods Manifest.lock */,
 				6DC45D161B67202E0044D7CC /* Sources */,
 				6DC45D171B67202E0044D7CC /* Frameworks */,
 				6DC45D181B67202E0044D7CC /* Resources */,
+				875E22A96FA412BD0D570E43 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,9 +281,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC45D291B67202E0044D7CC /* Main.storyboard in Resources */,
+				6DC45D5D1B67243F0044D7CC /* 1.gif in Resources */,
 				6DC45D2E1B67202E0044D7CC /* LaunchScreen.xib in Resources */,
+				6DC45D5A1B6724350044D7CC /* bikini-2.gif in Resources */,
+				6DC45D5B1B6724350044D7CC /* halsy.gif in Resources */,
 				6DC45D2B1B67202E0044D7CC /* Images.xcassets in Resources */,
+				6DC45D631B6724460044D7CC /* calvin.gif in Resources */,
+				6DC45D611B6724460044D7CC /* bikini.gif in Resources */,
+				6DC45D591B6724350044D7CC /* bunny.gif in Resources */,
+				6DC45D621B6724460044D7CC /* jenner6.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +302,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		875E22A96FA412BD0D570E43 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawFeed/Pods-DrawFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4896B72B84103802D5232C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6DC45D161B67202E0044D7CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6DC45D261B67202E0044D7CC /* ViewController.m in Sources */,
+				6DC45D481B6720E90044D7CC /* INContentCollectionViewLayoutAttributes.m in Sources */,
+				6DC45D4D1B6721030044D7CC /* INContentMotherCollectionViewCell.m in Sources */,
+				6DC45D4E1B6721030044D7CC /* INContentImageCollectionViewCell.m in Sources */,
+				6DC45D471B6720E90044D7CC /* INContentCollectionViewFlowLayout.m in Sources */,
 				6DC45D231B67202E0044D7CC /* AppDelegate.m in Sources */,
 				6DC45D201B67202E0044D7CC /* main.m in Sources */,
+				6DC45D531B6721150044D7CC /* INContentHeaderCollectionReusableView.m in Sources */,
+				6DC45D541B6721150044D7CC /* INContentFooterCollectionReusableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +371,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6DC45D271B67202E0044D7CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6DC45D281B67202E0044D7CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6DC45D2C1B67202E0044D7CC /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +466,7 @@
 		};
 		6DC45D3E1B67202E0044D7CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A02CAA87F6F00FCB391C2B /* Pods-DrawFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawFeed/Info.plist;
@@ -357,6 +477,7 @@
 		};
 		6DC45D3F1B67202E0044D7CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD03FBE18EC6BE8574656398 /* Pods-DrawFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DrawFeed/Info.plist;
@@ -418,6 +539,7 @@
 				6DC45D3F1B67202E0044D7CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DC45D401B67202E0044D7CC /* Build configuration list for PBXNativeTarget "DrawFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +548,7 @@
 				6DC45D421B67202E0044D7CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

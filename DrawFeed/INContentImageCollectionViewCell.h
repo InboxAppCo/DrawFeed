@@ -7,9 +7,11 @@
 //
 
 #import "INContentMotherCollectionViewCell.h"
+#import "FLAnimatedImage.h"
 
 @interface INContentImageCollectionViewCell : INContentMotherCollectionViewCell
 
 - (void)setImage:(UIImage *)image;
+- (void)setAnimatedImage:(FLAnimatedImage *)animatedImage;
 
 @end
